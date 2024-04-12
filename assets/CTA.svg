@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="380" height="270" viewBox="0 0 380 270">
+  <defs>
+    <filter id="Rectangle_23" x="0" y="0" width="380" height="270" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="35" result="blur"/>
+      <feFlood flood-color="#f1a501" flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="CTA" transform="translate(-43 -607)">
+    <g transform="matrix(1, 0, 0, 1, 43, 607)" filter="url(#Rectangle_23)">
+      <rect id="Rectangle_23-2" data-name="Rectangle 23" width="170" height="60" rx="10" transform="translate(105 85)" fill="#f1a501"/>
+    </g>
+    <text id="Find_out_more" data-name="Find out more" transform="translate(175 711)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="2" y="19">Find out more</tspan></text>
+  </g>
+</svg>
